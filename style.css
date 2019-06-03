@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav {
+	float: right;
+	padding-right: 20px;	
+}
+
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #2BA273;
+}
+
+.hero-box {
+	height: 338px;
+	background-color: #FF00D7;
+	background-image: url(images/hero-image.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+
+h1 {
+	color: #FEFEFE;	
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+
+
+
+
+main{
+	
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+
+.map{
+	width: 600px;
+	height:400px;
+	float: left;
+	
+}
+.content{
+	position: absolute;
+	width:600px;
+	height:400px;
+	right:50px;
+	float: right;
+	line-height: 2.5;
+}
+.side-heading{
+	font-size: 35px;
+	text-align: center;
+	
+	
+}
+.shopping-content{
+	
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+	
+}
+
+.shopping-content table{
+	
+	font-size: 30px;;
+	
+}
+.gallery{
+	
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+.gallery table{
+	
+	padding: 20px;
+	text-align: center;
+	
+}
